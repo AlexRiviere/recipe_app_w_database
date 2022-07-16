@@ -1,0 +1,20 @@
+<h3>Edit Recipe</h3>
+
+<form method="post" action="/<%= params[:category] %>/<%= params[:recipe] %>/edit">
+  <div>
+    <label for="title">Title</label>
+    <input type="text" id="title" name="title" value="<%= params[:recipe] %>"/>
+  </div>
+  <div>
+    <label for="ingredients">Ingredients</label>
+    <textarea id="ingredients" name="ingredients" rows="10" cols="50"><%= @recipe_hash[params[:category]][params[:recipe]]["ingredients"].join(",") %></textarea>
+    
+  </div>
+  <div>
+    <label for="instructions">Instructions</label>
+    <textarea id="instructions" name="instructions" rows="10" cols="50"><%= @recipe_hash[params[:category]][params[:recipe]]["instructions"] %></textarea>
+  </div>
+  
+  <input type="submit" value="Save Recipe" />
+  <a href="/<%= params[:category] %>/<%= params[:recipe] %>">Cancel</a>
+</form>

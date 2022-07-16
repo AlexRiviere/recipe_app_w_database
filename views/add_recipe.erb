@@ -1,0 +1,23 @@
+<h3>Add a New Recipe</h3>
+
+<form method="post" action="/add_recipe">
+  <div>  
+    <label for="category">Category</label>
+    <input type="text" id="category" name="category" value="Category must not have any spaces"/>
+  </div>
+  <div>
+    <label for="title">Title</label>
+    <input type="text" id="title" name="title" value="Title must not have spaces"/>
+  </div>
+  <div>
+    <label for="ingredients">Ingredients</label>
+    <textarea id="ingredients" name="ingredients" rows="10" cols="50">Add your ingredients here in a comma separated list. (ex. eggs, onions, potatoes)</textarea>
+    
+  </div>
+  <div>
+    <label for="instructions">Instructions</label>
+    <textarea id="instructions" name="instructions" rows="10" cols="50">Add your instructions here</textarea>
+  </div>
+  
+  <input type="submit" value="Add Recipe" />
+</form>

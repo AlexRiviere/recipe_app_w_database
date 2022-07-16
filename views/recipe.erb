@@ -1,0 +1,17 @@
+<h1><%= params[:recipe] %></h1>
+
+<h2>Ingredients</h2>
+<ul>
+  <% @ingredients.each do |ingredient|%>
+    <li><%= ingredient %></li>
+  <% end %>
+</ul>
+
+<h2>Instructions</h2>
+<p><%= @instructions %></p>
+
+<form method="post" action="/<%= params[:category]%>/<%= params[:recipe]%>/delete">
+  <button type="submit">Delete Recipe</button>
+</form>
+
+<a href="/<%= params[:category] %>/<%= params[:recipe] %>/edit">Edit Recipe</a>

@@ -1,0 +1,13 @@
+label {
+  display: inline-block;
+  min-width: 75px;
+  padding: 10px 0px;
+}
+
+textarea {
+  display: block;
+}
+
+.message {
+  background: yellow;  
+}

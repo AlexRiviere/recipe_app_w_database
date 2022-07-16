@@ -1,0 +1,58 @@
+---
+feasts:
+  steaks and onions and this:
+    ingredients:
+    - steak
+    - " onions"
+    - " salt"
+    - " pepper"
+    instructions: cook steak, sautee onions and all that, but some more
+  salmon:
+    ingredients:
+    - salmon
+    - " eggs"
+    - " onions"
+    instructions: cook salmon and yes yesye s
+snack:
+  cheetoss and:
+    ingredients:
+    - cheetos
+    - " bag"
+    - " hand"
+    instructions: open the bag and enjoy
+small shit:
+  crackss:
+    ingredients:
+    - crack
+    - " and more crack"
+    - " ten some more"
+    - " and even more"
+    instructions: just smoke it, then do more, but also yesas df
+asdf: {}
+small_meal:
+  yes_we_can and this:
+    ingredients:
+    - obama
+    - " michelle"
+    - " the kids"
+    instructions: just elect them
+yes_ok:
+  here_we_go:
+    ingredients:
+    - what
+    - " are"
+    - " we"
+    - " doing"
+    - " here"
+    instructions: just figure it out
+ok:
+  nahh_though:
+    ingredients:
+    - 'yes'
+    - " but"
+    - " ok "
+    - " here"
+    - " is "
+    - " it"
+    instructions: nahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhAdd
+      your instructions here
